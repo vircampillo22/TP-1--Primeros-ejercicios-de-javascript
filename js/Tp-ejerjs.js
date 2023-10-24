@@ -25,4 +25,43 @@ let num1=parseInt(prompt("ingrese un numero aleatorio"));
 let num2=parseInt(prompt("ingrese otro numero aleatorio"));
 let resultado=(num1+num2)
 
-document.write("el resultado de los numeros aleatorios es:"+" "+resultado);
+document.write("el resultado de la suma de los numeros aleatorios es:"+" "+resultado);
+
+//6.- Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+//Ejemplo: 
+//input: 15 , 3
+//Output: El 15 es el número más grande
+
+let numero1=parseInt(prompt("ingrese un numeros aletorios del 1 al 10"));
+let numero2=parseInt(prompt("ingrese un numeros aletorios del 1 al 10"));
+
+if(numero1>numero2){
+    document.write("el numero mayor es:"+" "+numero1);
+}else{
+    document.write("el numero mayor es:"+" "+numero2);
+}
+
+//7.- Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+//Ejemplo: 
+//input: 15 , 3, 9
+//Output: El 15 es el número más grande
+
+let numeros1=parseInt(prompt("ingrese un numeros aletorios del 1 al 20"));
+let numeros2=parseInt(prompt("ingrese un numeros aletorios del 1 al 20"));
+let numeros3=parseInt(prompt("ingrese un numeros aletorios del 1 al 20"));
+let mayor
+
+if(numeros1>numeros2&&numeros1>numeros3){
+    document.write("el numero mayor es:"+" "+numeros1);
+}else if (numeros2>numeros1&&numeros2>numeros3){
+    document.write("el numero mayor es:"+" "+numeros2);
+}else{
+    document.write("el numero mayor es:"+numeros3);
+}
+
+
+
+
+
+
+
