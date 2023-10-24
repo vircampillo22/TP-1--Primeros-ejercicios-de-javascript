@@ -59,6 +59,20 @@ if(numeros1>numeros2&&numeros1>numeros3){
     document.write("el numero mayor es:"+numeros3);
 }
 
+//8.- Escribe un programa que pida un número y diga si es divisible por 2
+//Ejemplo: 
+//input: 10
+//input: 15
+//Output: El 10 es divisible por 2.
+//Output: El 15 no es divisible por 2.
+
+let nu1=parseInt(prompt("ingrese un numero aleatorio"));
+
+if (nu1%2===0){
+    document.write("el numero"+nu1+"ingresado es divisible por dos");
+}else {
+    document.write("el numero"+nu1+"ingresado no es divisible por dos");
+}
 
 
 
